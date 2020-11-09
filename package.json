@@ -1,0 +1,20 @@
+{
+  "name": "hapi_restapi",
+  "version": "1.0.0",
+  "description": "Rest api using hapiJS framework",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "HapiJs",
+    "Rest_Api"
+  ],
+  "author": "Franklin",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.10.13"
+  }
+}
